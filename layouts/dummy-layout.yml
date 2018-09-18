@@ -1,0 +1,14 @@
+---
+inventory_layout:
+  # inventory relative to workspace
+  inventory_file: test.inventory
+  # inventory with absolute path
+  #inventory_file: /tmp/beaker.yml
+  vars:
+    hostname: __IP__
+  hosts:
+    example-node:
+      count: 1
+      host_groups:
+        - example
+

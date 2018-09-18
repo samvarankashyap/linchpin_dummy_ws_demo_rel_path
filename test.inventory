@@ -1,0 +1,6 @@
+[example]
+web-f99f94-0.example.net hostname=web-f99f94-0.example.net
+
+[all]
+web-f99f94-0.example.net hostname=web-f99f94-0.example.net
+
